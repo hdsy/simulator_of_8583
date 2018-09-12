@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Format - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Format.res" /d "_DEBUG" /d "_AFXDLL" "C:\CODE\UmspFinance\Format\Format.rc"" 
+Creating temporary file "C:\DOCUME~1\gaoy\LOCALS~1\Temp\RSP190.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Format.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\CODE\UmspFinance\Format\AddDlg.cpp"
+"C:\CODE\UmspFinance\Des.cpp"
+"C:\CODE\UmspFinance\Format\Format.cpp"
+"C:\CODE\UmspFinance\Format\FormatDoc.cpp"
+"C:\CODE\UmspFinance\Format\FormatView.cpp"
+"C:\CODE\UmspFinance\Format\HDSYC8583Digram.cpp"
+"C:\CODE\UmspFinance\Format\MainFrm.cpp"
+"C:\CODE\UmspFinance\Format\MsgDetailDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\gaoy\LOCALS~1\Temp\RSP190.tmp" 
+Creating temporary file "C:\DOCUME~1\gaoy\LOCALS~1\Temp\RSP191.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Format.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\CODE\UmspFinance\Format\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\gaoy\LOCALS~1\Temp\RSP191.tmp" 
+Creating temporary file "C:\DOCUME~1\gaoy\LOCALS~1\Temp\RSP192.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Format.pdb" /debug /machine:I386 /out:"Debug/Format.exe" /pdbtype:sept 
+.\Debug\AddDlg.obj
+.\Debug\Des.obj
+.\Debug\Format.obj
+.\Debug\FormatDoc.obj
+.\Debug\FormatView.obj
+.\Debug\HDSYC8583Digram.obj
+.\Debug\MainFrm.obj
+.\Debug\MsgDetailDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\Format.res
+]
+Creating command line "link.exe @C:\DOCUME~1\gaoy\LOCALS~1\Temp\RSP192.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AddDlg.cpp
+Des.cpp
+Format.cpp
+FormatDoc.cpp
+FormatView.cpp
+HDSYC8583Digram.cpp
+MainFrm.cpp
+MsgDetailDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Format.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

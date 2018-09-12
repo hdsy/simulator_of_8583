@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Rs232TCPAdaptor - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Rs232TCPAdaptor.res" /d "_DEBUG" "C:\CODE\Rs232TCPAdaptor\Rs232TCPAdaptor.rc"" 
+Creating temporary file "C:\DOCUME~1\gaoy\LOCALS~1\Temp\RSP17D.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Rs232TCPAdaptor.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\CODE\Rs232TCPAdaptor\AnalysisDlg.cpp"
+"C:\CODE\Rs232TCPAdaptor\CommandDlg.cpp"
+"C:\CODE\Rs232TCPAdaptor\Des.cpp"
+"C:\CODE\Rs232TCPAdaptor\DesDlg.cpp"
+"C:\CODE\Rs232TCPAdaptor\HDSYC8583Digram.cpp"
+"C:\CODE\Rs232TCPAdaptor\mscomm.cpp"
+"C:\CODE\Rs232TCPAdaptor\MsgViewerDlg.cpp"
+"C:\CODE\Rs232TCPAdaptor\Rs232TCPAdaptor.cpp"
+"C:\CODE\Rs232TCPAdaptor\Rs232TCPAdaptorDlg.cpp"
+"C:\CODE\Rs232TCPAdaptor\SettingDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\gaoy\LOCALS~1\Temp\RSP17D.tmp" 
+Creating temporary file "C:\DOCUME~1\gaoy\LOCALS~1\Temp\RSP17E.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Rs232TCPAdaptor.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\CODE\Rs232TCPAdaptor\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\gaoy\LOCALS~1\Temp\RSP17E.tmp" 
+Creating temporary file "C:\DOCUME~1\gaoy\LOCALS~1\Temp\RSP17F.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Rs232TCPAdaptor.pdb" /debug /machine:I386 /out:"Debug/Rs232TCPAdaptor.exe" /pdbtype:sept 
+.\Debug\AnalysisDlg.obj
+.\Debug\CommandDlg.obj
+.\Debug\Des.obj
+.\Debug\DesDlg.obj
+.\Debug\HDSYC8583Digram.obj
+.\Debug\mscomm.obj
+.\Debug\MsgViewerDlg.obj
+.\Debug\Rs232TCPAdaptor.obj
+.\Debug\Rs232TCPAdaptorDlg.obj
+.\Debug\SettingDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\Rs232TCPAdaptor.res
+]
+Creating command line "link.exe @C:\DOCUME~1\gaoy\LOCALS~1\Temp\RSP17F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AnalysisDlg.cpp
+CommandDlg.cpp
+Des.cpp
+DesDlg.cpp
+HDSYC8583Digram.cpp
+mscomm.cpp
+MsgViewerDlg.cpp
+Rs232TCPAdaptor.cpp
+Rs232TCPAdaptorDlg.cpp
+SettingDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Rs232TCPAdaptor.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

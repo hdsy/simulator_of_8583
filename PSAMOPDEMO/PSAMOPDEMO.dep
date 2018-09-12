@@ -1,0 +1,118 @@
+# Microsoft Developer Studio Generated Dependency File, included by PSAMOPDEMO.mak
+
+.\Des.cpp : \
+	".\Des.h"\
+	".\PSAMOPDEMO.h"\
+	
+
+.\DisSettingDlg.cpp : \
+	".\DisSettingDlg.h"\
+	".\EncryptorAdap.h"\
+	".\PSAMOPDEMO.h"\
+	".\SockConn.h"\
+	
+
+.\EncryptorAdap.cpp : \
+	".\EncryptorAdap.h"\
+	".\PSAMOPDEMO.h"\
+	".\SockConn.h"\
+	".\Tools.h"\
+	
+
+.\LeftView.cpp : \
+	".\LeftView.h"\
+	".\PSAMOPDEMO.h"\
+	".\PSAMOPDEMODoc.h"\
+	
+
+.\MainFrm.cpp : \
+	".\DisSettingDlg.h"\
+	".\EncryptorAdap.h"\
+	".\LeftView.h"\
+	".\MainFrm.h"\
+	".\PSAMOPDEMO.h"\
+	".\PSAMOPDEMOView.h"\
+	".\Serial.h"\
+	".\SockConn.h"\
+	".\ST340.h"\
+	".\TestPsamCmdDlg.h"\
+	".\Tools.h"\
+	
+
+.\PsamCard.cpp : \
+	".\EncryptorAdap.h"\
+	".\PSAMOPDEMO.h"\
+	".\SockConn.h"\
+	".\Tools.h"\
+	
+
+.\PSAMOPDEMO.cpp : \
+	".\LeftView.h"\
+	".\MainFrm.h"\
+	".\PSAMOPDEMO.h"\
+	".\PSAMOPDEMODoc.h"\
+	"c:\program files\html help workshop\include\htmlhelp.h"\
+	
+
+.\PSAMOPDEMO.rc : \
+	".\res\PSAMOPDEMO.ico"\
+	".\res\PSAMOPDEMO.rc2"\
+	".\res\PSAMOPDEMODoc.ico"\
+	".\res\Toolbar.bmp"\
+	".\res\toolbar1.bmp"\
+	
+
+.\PSAMOPDEMODoc.cpp : \
+	".\PSAMOPDEMO.h"\
+	".\PSAMOPDEMODoc.h"\
+	
+
+.\PSAMOPDEMOView.cpp : \
+	".\DisSettingDlg.h"\
+	".\EncryptorAdap.h"\
+	".\PSAMOPDEMO.h"\
+	".\PSAMOPDEMODoc.h"\
+	".\PSAMOPDEMOView.h"\
+	".\Serial.h"\
+	".\SockConn.h"\
+	".\ST340.h"\
+	".\TestPsamCmdDlg.h"\
+	".\Tools.h"\
+	
+
+.\Serial.cpp : \
+	".\PSAMOPDEMO.h"\
+	".\Serial.h"\
+	
+
+.\SockConn.cpp : \
+	".\PSAMOPDEMO.h"\
+	".\SockConn.h"\
+	
+
+.\ST340.cpp : \
+	".\PSAMOPDEMO.h"\
+	".\Serial.h"\
+	".\ST340.h"\
+	".\Tools.h"\
+	
+
+.\StdAfx.cpp : \
+	".\PsamCard.h"\
+	".\StdAfx.h"\
+	"d:\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\TestPsamCmdDlg.cpp : \
+	".\PSAMOPDEMO.h"\
+	".\Serial.h"\
+	".\ST340.h"\
+	".\TestPsamCmdDlg.h"\
+	".\Tools.h"\
+	
+
+.\Tools.cpp : \
+	".\Des.h"\
+	".\PSAMOPDEMO.h"\
+	".\Tools.h"\
+	
